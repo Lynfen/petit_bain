@@ -13,3 +13,10 @@ void        ft_putstr(char *str)
 		            ft_putchar(str[i]);
 }
 
+int main (char *test)
+
+{
+	test = "65";
+	ft_putstr(test);
+	
+}
